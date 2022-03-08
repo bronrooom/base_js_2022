@@ -1,0 +1,57 @@
+body {
+    color: #424242;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 40px;
+    color: royalblue;
+    text-align: center;
+    border: 1px solid royalblue;
+}
+img {
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 35px rgba(104, 131, 214, 0.75);
+    transition: 0.2s;
+}
+img:hover {
+    transform: scale(1.05, 1.05);
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    background: salmon;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+a:hover {
+    background-color: violet;
+    color: coral;
+}
+.raunded {
+   border-radius: 15px;
+   padding: 10px; 
+}
+.blue {
+    background-color: aqua;
+}
+.red {
+    background-color: chocolate;
+}
+.block {
+    width: 30%;
+    border-radius: 35px;
+    padding: 20px;
+}
+.green {
+    background-color: chartreuse;
+}
+.orange {
+    background-color: chocolate;
+}
+.violet {
+    background-color: violet;
+}
+.block img {
+    width: 70%;
+}
