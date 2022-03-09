@@ -13,22 +13,53 @@ ul {
 /* стили хэдара */
  header {
      background-color: aquamarine;
+     height/* высота */: 60px;
+     display: flex;
+     justify-content: space-between;/* space-between прижимает к краям родителя */
+     align-items: center;
  }
 /* стиль навигации */
 .main-menu {
-    background-color: darkorchid;
+    background-color: rgb(26, 202, 149);
+}
+.main-menu-list {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 /* стиль контентной части */
-.main-section {
-    background-color: darkorange;
+.content {
+    display: flex;
 }
-.main-sectio-item {
-    background-color: darkolivegreen;
+.main-section {
+    background-color: rgb(199, 113, 9);
+    flex: 7;
+    display: flex;
+    flex-wrap: wrap;/* преносит вытесненный контент не помещаюсийся в строчку */ 
+}
+.main-section-item {
+    background-color: rgb(143, 179, 80);
+    width: calc(50% - 20px);
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px;
 }
 /* стиль для сайт бара */
 .sidebar-right {
-background-color: blueviolet;
+background-color: rgb(179, 123, 231);
+flex: 2;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
 }
 footer {
-    background-color: purple;
+    background-color: rgb(131, 139, 216);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
 }
