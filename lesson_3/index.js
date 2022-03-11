@@ -2,4 +2,5 @@
     
 //namber
 // console.log(1 / 0);
-console.log(typeof NaN);
+console.log(typeof NaN); 
+
